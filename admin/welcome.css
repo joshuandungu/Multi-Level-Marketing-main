@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://cdn.pixabay.com/photo/2020/05/25/20/06/storm-5220380__340.jpg);
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 30%;
+    padding: 15px 0;
+}
+.text{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.text h1{
+    text-align: center;
+    color: #99ccff;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.text d{
+    text-align: center;
+    color: #dd05c0;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+}
+.text h2{
+    text-align: center;
+    color: #31f33a;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+.text p{
+    text-align: center;
+    color: #fc2c10;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+}
+.text a{
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: rgb(29, 201, 207);
+}
+.text a:hover{
+    background: #b3ffff;
+    color: #333;
+}
+
+@media (max-width:600px){
+    .wrapper {
+width: 100%;
+}
+    .text {
+width: 100%;
+height: auto;
+margin: 30% 0;
+}
+    .text h1 {
+font-size: 30px;
+}
+}
